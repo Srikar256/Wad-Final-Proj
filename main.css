@@ -1,0 +1,68 @@
+body {
+    padding: 20px;
+    background-color: #f4f4f4; /* Light background for contrast */
+}
+
+header {
+    background-color: white; /* Orange background for the header */
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for the header */
+}
+
+header a {
+    color: #ffffff; /* White text for the header title */
+    font-weight: bold;
+}
+
+header ul.nav {
+    margin-top: 1px;
+}
+
+.nav-link {
+    color: #ffffff; /* White text for nav links */
+    background-color: #ff9800; /* Dark orange background for nav links */
+    border-radius: 4px;
+}
+
+.nav-link.active {
+    background-color: #ffccbc; /* Light orange for active link */
+    color: #d84315; /* Darker text for active link */
+}
+
+.nav-link:hover {
+    background-color: #ffe0b2; /* Hover effect */
+    color: #d84315; /* Darker text color on hover */
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+.jumbotron {
+    background-color: #fff; /* White background for jumbotron */
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for the jumbotron */
+}
+
+.table th, .table td {
+    text-align: center; /* Center-align table content */
+}
+
+.footer {
+    background-color: #ffffff; 
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+.number {
+    font-weight: bold;
+    color: #ff9800; /* Highlight currency amounts */
+}
+.converter{
+    background-color: #fff; /* White background for jumbotron */
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
